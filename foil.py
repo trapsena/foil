@@ -90,6 +90,7 @@ arthur.adicionar_inspiracao("Jerma985")
 arthur.mudar_visual("Top Flat")
 arthur.idade = 20
 arthur.adicionar_conquista("Concluir Pos-graduação de curso de Ingles")
+arthur.adicionar_conquista("Ganhei minha Carteira de Motorista")
 print("\n")
 
 
