@@ -1,3 +1,4 @@
+import os
 class Pessoa:
     def __init__(self, nome, idade, interesses):
         self.nome = nome
@@ -53,20 +54,28 @@ class Personalidade:
 
 
 print("----- Início da Jornada: Infância e Adolescência -----")
+
 arthur = Pessoa("Arthur Sena", 7,["Jogos"])
 arthur.adicionar_conquista("Aprender inglês com jogos e videos")
 arthur.adicionar_inspiracao("Mãe")
 arthur.adicionar_inspiracao("Pai")
 print("\n")
 print(arthur)
+input("Pressione Enter para continuar...")
+os.system('cls')
+
 
 print("\n----- Transformação 1: Ensino Médio para a Faculdade -----")
 arthur.idade = 12
 arthur.evoluir_interesses("Animação, Ciclismo, Animes")
 arthur.adicionar_conquista("Começar a estudar em um curso de Ingles")
 arthur.mudar_visual("Deixando crescer")
+
 print("\n")
 print(arthur)
+input("Pressione Enter para continuar...")
+os.system('cls')
+
 
 
 
@@ -81,6 +90,9 @@ arthur.adicionar_conquista("Começar Pos-graduação de curso de Ingles")
 arthur.adicionar_conquista("Entrar na facauldade")
 print("\n")
 print(arthur)
+input("Pressione Enter para continuar...")
+os.system('cls')
+
 
 
 
@@ -89,6 +101,7 @@ arthur.adicionar_inspiracao("Etika")
 arthur.adicionar_inspiracao("Jerma985")
 arthur.mudar_visual("Top Flat")
 arthur.idade = 20
+arthur.adicionar_conquista("Primeiro Emprego no Projeto de Flores")
 arthur.adicionar_conquista("Concluir Pos-graduação de curso de Ingles")
 arthur.adicionar_conquista("Ganhei minha Carteira de Motorista")
 print("\n")
